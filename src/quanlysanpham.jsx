@@ -20,7 +20,7 @@ function Quanlysanpham() {
             });
     }, []);
 
-    // xoa san pham 
+    // xoa san pham
     const xoasanpham = (hg1) => {
         console.log(hg1);
         fetch('http://localhost:2003/xoasanpham', {

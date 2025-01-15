@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import './shoppe.css'
 function Themsanpham() {
-    // dang san pham moi
+    // dang san pham moi 
     let [anh, setAnh] = useState();
     let [xemtruoc, setXemtruoc] = useState('');
     let [doidanhmuc, setDoidanhmuc] = useState('');
