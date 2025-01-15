@@ -1,82 +1,91 @@
 /* top */
-.top{
+.top {
     width: 100vw;
     height: auto;
     display: flex;
 }
-.logotopgiua{
+
+.logotopgiua {
     padding-left: 13%;
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.logotop{
+
+.logotop {
     font-size: 50px;
     color: #EE4D2D;
 }
-.chusobetop{
-    padding-top: 25px;
+
+.chusobetop {
+    padding-top: 18px;
     padding-left: 5px;
     font-size: 40px;
-    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
-.canhchusobetop{
-    padding-top: 34px;
-    padding-left: 15px;
+
+.canhchusobetop {
+    padding-top: 23px;
+    padding-left: 7px;
     font-size: 30px;
-    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
-.mausobetop{
+
+.mausobetop {
     color: #EE4D2D;
     text-decoration: none;
 }
 
 /* bottom */
-.bottom{
-    width: 100vw;
-    height: auto;
-    font-size: 13px;
-    color: rgb(70, 69, 69);
-    text-align: center;
-}
-.chusobebottom{
+
+.chusobebottom {
     margin-top: 25px;
     margin-bottom: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(70, 69, 69);
 }
-.chugioithieubottom{
+
+.chugioithieubottom {
     margin-top: 8px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(70, 69, 69);
 }
 
 /* dang ky */
-.dangky{
-    width: 100%;
-    height: 640px;
+.dangky {
     background-color: #EE4D2D;
+
 }
-.cangiua{
+
+.cangiua {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 640px; 
+    height: 640px;
 }
-.logodangky{
+
+.logodangky {
     font-size: 12vw;
     color: white;
 }
-.chusobedangky{
+
+.chusobedangky {
     font-size: 50px;
-    font-family:'Bebas Neue', sans-serif;
-    color: white;
-}
-.chuduoisobe{
-    padding-top: 40px;
-    font-size: 25px;
-    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
 }
 
-.bangdangky{
+.chuduoisobe {
+    padding-top: 40px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.bangdangky {
     height: 65%;
     border: solid 1px white;
     background-color: white;
@@ -85,17 +94,20 @@
     padding-left: 7%;
     padding-right: 7%;
 }
-.chudangky{
+
+.chudangky {
     height: 15%;
     padding-top: 7%;
     font-size: 23px;
     text-align: left;
 }
-.taotaikhoan{
+
+.taotaikhoan {
     width: 100%;
     height: 70%;
 }
-.taoacc{
+
+.taoacc {
     margin-top: 7%;
     width: 100%;
     height: 15%;
@@ -105,7 +117,8 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-.bamtaoacc{
+
+.bamtaoacc {
     margin-top: 7%;
     width: 100%;
     height: 15%;
@@ -114,25 +127,30 @@
     border-radius: 3px;
     color: white;
 }
-.dacotaikhoan{
+
+.dacotaikhoan {
     height: 15%;
     width: 100%;
     text-align: center;
 }
-.bandacotaikhoan{
+
+.bandacotaikhoan {
     color: #00000042;
     display: inline;
 }
-.cothidangnhap{
+
+.cothidangnhap {
     padding-left: 4px;
     display: inline;
 }
-.maucothidangnhap{
+
+.maucothidangnhap {
     color: #EE4D2D;
     text-decoration: none;
 }
+
 /* dang nhap */
-.bangdangnhap{
+.bangdangnhap {
     height: 50%;
     border: solid 1px white;
     background-color: white;
@@ -141,7 +159,8 @@
     padding-left: 7%;
     padding-right: 7%;
 }
-.dangnhaptaikhoan{
+
+.dangnhaptaikhoan {
     margin-top: 7%;
     width: 100%;
     height: 20%;
@@ -151,7 +170,8 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-.bamdangnhap{
+
+.bamdangnhap {
     margin-top: 7%;
     width: 100%;
     height: 20%;
@@ -160,9 +180,88 @@
     border-radius: 3px;
     color: white;
 }
-.vien{
+
+.vien {
     border: solid 1px black;
 }
-.chudangkyshop{
+
+.chudangkyshop {
     font-size: 20px;
+}
+
+/* quanlysanpham*/
+.chudep {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.chutatca {
+    font-size: 16px;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: block;
+}
+
+.anhquanlysanpham {
+    width: 90%;
+    height: 95px;
+}
+
+.text-container {
+    word-wrap: break-word;
+    font-family: sans-serif;
+}
+.text-container1 { 
+    word-wrap: break-word; 
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+}
+
+/* them san pham */
+.themhinhanh{
+    width: 90px;
+    height: 75px;
+    color: #EE4D2D;
+    font-size: 13px;
+    border: 1px dashed #d1cccc;
+    border-radius: 5px;
+}
+.themanhbia{
+    cursor: no-drop;
+    width: 90px;
+    height: 75px;
+    color: #EE4D2D;
+    font-size: 13px;
+    border: 1px dashed #d1cccc;
+    border-radius: 5px;
+}
+.dienthongtin{
+    width: 100%;
+    border-radius: 4px;
+    height: 35px;
+    border: solid 1px rgba(194, 191, 191, 0.54);
+    background-color: white;
+}
+.dienthongtin:hover, .dienthongtin:active{
+    border-color: #888585;
+}
+.mota{
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px rgba(194, 191, 191, 0.54);
+    background-color: white;
+    resize: none;
+}
+.annut{
+    display: none;
+}
+.dongdanhmuc{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
 }

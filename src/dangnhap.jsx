@@ -73,32 +73,30 @@ function Dangnhap() {
 
     return (
         <>
-            <div className='dangky'>
-                <div className='row g-0'>
-                    <div className='col-sm-2'></div>
-                    <div className='col-sm-8 row'>
-                        <div className='col-sm-6 cangiua'>
-                            <i className="fa-brands fa-shopify logodangky"></i>
-                            <div className='chusobedangky'>Sobe</div>
-                            <div className='chuduoisobe'>Nền tảng thương mại điện tử yêu thích ở Yên Nội & Đồng Quang</div>
-                        </div>
-                        <div className='col-sm-6 cangiua'>
-                            <div className='bangdangnhap'>
-                                <div className='chudangky'>Đăng nhập</div>
-                                <div className='taotaikhoan'>
-                                    <input type="text" className='dangnhaptaikhoan' placeholder="Email hoặc số điện thoại" id='taotaikhoan' />
-                                    <input type="password" className='dangnhaptaikhoan' placeholder="Mật khẩu" id='taomatkhau' onKeyUp={dangnhap1} />
-                                    <button className='bamdangnhap' onClick={dangnhap}>Đăng nhập</button>
-                                </div>
-                                <div className='dacotaikhoan'>
-                                    <div className='bandacotaikhoan'>Bạn chưa có tài khoản?</div>
-                                    <div className='cothidangnhap'><a href="http://localhost:1800/dangky" className='maucothidangnhap'>Đăng ký</a></div>
-                                </div>
+            <div className='row dangky '>
+                <div className='col-sm-2'></div>
+                <div className='col-sm-8 row'>
+                    <div className='col-sm-6 cangiua'>
+                        <i className="fa-brands fa-shopify logodangky"></i>
+                        <div className='chusobedangky'>Sobe</div>
+                        <div className='chuduoisobe'>Nền tảng thương mại điện tử yêu thích ở Yên Nội & Đồng Quang</div>
+                    </div>
+                    <div className='col-sm-6 cangiua'>
+                        <div className='bangdangnhap'>
+                            <div className='chudangky'>Đăng nhập</div>
+                            <div className='taotaikhoan'>
+                                <input type="text" className='dangnhaptaikhoan' placeholder="Email hoặc số điện thoại" id='taotaikhoan' />
+                                <input type="password" className='dangnhaptaikhoan' placeholder="Mật khẩu" id='taomatkhau' onKeyUp={dangnhap1} />
+                                <button className='bamdangnhap' onClick={dangnhap}>Đăng nhập</button>
+                            </div>
+                            <div className='dacotaikhoan'>
+                                <div className='bandacotaikhoan'>Bạn chưa có tài khoản?</div>
+                                <div className='cothidangnhap'><a href="http://localhost:1800/dangky" className='maucothidangnhap'>Đăng ký</a></div>
                             </div>
                         </div>
                     </div>
-                    <div className='col-sm-2'></div>
                 </div>
+                <div className='col-sm-2'></div>
             </div>
         </>
     )
